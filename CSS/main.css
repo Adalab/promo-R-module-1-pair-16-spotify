@@ -1,6 +1,35 @@
-header {
-    background-color: black;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.cabecera-logo {
-    width: 70px;
+html {
+    font-size: 62.5%;
+}
+.header {
+    height: 6vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cabecera-logo { 
+    width: 10vh;
+    margin-left: 10px;
+}
+.header-botones{
+    color: white;
+    width: 60vh;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.lista-botones {
+    list-style: none;
+    font-size: 1.5rem;
+}
+.descargar::after {
+    content: "|";
+    margin-left: 40px;
 }
