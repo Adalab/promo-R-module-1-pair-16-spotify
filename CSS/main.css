@@ -1,35 +1,72 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 .header {
-    height: 6vh;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+  height: 6vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.cabecera-logo { 
-    width: 10vh;
-    margin-left: 10px;
+.cabecera-logo {
+  width: 10vh;
+  margin-left: 10px;
 }
-.header-botones{
-    color: white;
-    width: 60vh;
-    display: flex;
-    justify-content: space-around;
-   
+.header-botones {
+  color: white;
+  width: 60vh;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
 }
 .lista-botones {
-    list-style: none;
-    font-size: 1.5rem;
+  list-style: none;
+  font-size: 1.5rem;
 }
 .descargar::after {
-    content: "|";
-    margin-left: 40px;
+  content: "|";
+  position: absolute;
+  left: 55%;
+}
+.fondo-principal {
+  background-color: #61bcfd;
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.imagen-principal {
+  order: 1;
+}
+.pie {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.pie ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  list-style: none;
+}
+.pie a {
+  color: white;
+  text-decoration: none;
+}
+.footer-div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bandera {
+  width: 3vh;
+  height: 3vh;
 }
