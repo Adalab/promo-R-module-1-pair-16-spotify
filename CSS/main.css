@@ -5,9 +5,15 @@
 }
 html {
   font-size: 62.5%;
+  font-family: "Roboto", serif;
+}
+.body{
+  width: 100vw;
+}
+.container {
+  margin: 0 1.5rem;
 }
 .header {
-  height: 6vh;
   background-color: black;
   display: flex;
   justify-content: space-between;
@@ -15,11 +21,13 @@ html {
 }
 .cabecera-logo {
   width: 10vh;
-  margin-left: 10px;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 .header-botones {
   color: white;
-  width: 60vh;
+  width: 20%;
   display: flex;
   justify-content: space-around;
   position: relative;
@@ -35,12 +43,19 @@ html {
 }
 .fondo-principal {
   background-color: #61bcfd;
-  width: 100%;
-  height: 400px;
   display: flex;
 }
+.titulo-principal {
+  padding-top: 5rem;   /*16px = 1.6rem  10px = 1rem*/
+  color: white;
+}
+.parrafo-principal {
+  color: white;
+  font-size: 1.8rem;
+}
+
 .imagen-principal {
-  order: 1;
+  display: none;
 }
 .pie {
   height: 10vh;
