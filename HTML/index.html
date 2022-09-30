@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Spotify</title>
   </head>
   <body class="body">    
       <header class="header">
-        <div class="container">
+        <div class="container header-container">
           <img class="cabecera-logo" src="../html-spotify/images/logo.png" alt="logo Spotify">
           <nav>
+            <i class="fa-solid fa-bars hamburguesa"></i>
             <ul class="header-botones">
               <li class="lista-botones">Premium</li>
               <li class="lista-botones">Ayuda</li>
@@ -34,10 +36,9 @@
                 <p class="parrafo-principal">
                   Escucha millones de canciones sin anuncios, a la carta y sin conexión.
                 </p>
-                <button type="button">VER PLANES</button>
-                <p>
-                  <small
-                    >Rigen términos y condiciones. Los tres meses gratis no están
+                <button type="button" class="button">VER PLANES</button>
+                <p class="terminos">
+                  <small>Rigen términos y condiciones. Los tres meses gratis no están
                     disponibles para usuarios que ya hayan probado Premium</small
                   >
                 </p>
@@ -45,42 +46,44 @@
           </div>
         </section>
         <section>
-          <h3>¿Por qué pasarte a Premium?</h3>
-          <div class="contenedor-grande">
-            <div class="contenedor-premium contenedor1">
-              <figure>
-                <img src="../html-spotify/images/benefit-1.png" alt="Imagen descarga de música">
-              </figure>
-              <div>
-                <h4>Descarga música.</h4>
-                <p>Llévala siempre contigo.</p>
-              </div>   
-            </div>       
-            <div class="contenedor-premium contenedor2">
-              <figure>
-                <img src="../html-spotify/images/benefit-2.png" alt="Imagen de teléfono sin anuncios">
-              </figure>
-              <div>
-                <h4>Sin anuncios.</h4>
-                <p>Disfruta de música sin interrupciones.</p>
+          <div class="container"> 
+            <h3 class="titulo-h3">¿Por qué pasarte a Premium?</h3>
+            <div class="contenedor-grande">
+              <div class="contenedor-premium contenedor1">
+                <figure class="figure-imagen-premium">
+                  <img class="imagen-premium" src="../html-spotify/images/benefit-1.png" alt="Imagen descarga de música">
+                </figure>
+                <div class="texto-premium">
+                  <h4>Descarga música.</h4>
+                  <p>Llévala siempre contigo.</p>
+                </div>
               </div>
-            </div>
-            <div class="contenedor-premium contenedor3">
-              <figure>
-                <img src="../html-spotify/images/benefit-3.png" alt="Imagen de notas">
-              </figure>
-              <div>
-                <h4>Escucha lo que quieras.</h4>
-                <p>Incluso en el móvil.</p>
+              <div class="contenedor-premium contenedor2">
+                <figure class="figure-imagen-premium">
+                  <img class="imagen-premium" src="../html-spotify/images/benefit-2.png" alt="Imagen de teléfono sin anuncios">
+                </figure>
+                <div class="texto-premium">
+                  <h4>Sin anuncios.</h4>
+                  <p>Disfruta de música sin interrupciones.</p>
+                </div>
               </div>
-            </div>
-            <div class="contenedor-premium contenedor4">
-              <figure>
-                <img src="../html-spotify/images/benefit-4.png" alt="Imagen del reproductor de música">
-              </figure>
-              <div>
-                <h4>Salta todas las canciones que quieras.</h4>
-                <p>Simplemente dale a siguiente.</p>
+              <div class="contenedor-premium contenedor3">
+                <figure class="figure-imagen-premium">
+                  <img class="imagen-premium" src="../html-spotify/images/benefit-3.png" alt="Imagen de notas">
+                </figure>
+                <div class="texto-premium">
+                  <h4>Escucha lo que quieras.</h4>
+                  <p>Incluso en el móvil.</p>
+                </div>
+              </div>
+              <div class="contenedor-premium contenedor4">
+                <figure class="figure-imagen-premium">
+                  <img class="imagen-premium" src="../html-spotify/images/benefit-4.png" alt="Imagen del reproductor de música">
+                </figure>
+                <div class="texto-premium">
+                  <h4>Salta todas las canciones que quieras.</h4>
+                  <p>Simplemente dale a siguiente.</p>
+                </div>
               </div>
             </div>
           </div>

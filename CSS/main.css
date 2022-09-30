@@ -8,13 +8,15 @@ html {
   font-family: "Roboto", serif;
 }
 .body{
-  width: 100vw;
+  
 }
 .container {
   margin: 0 1.5rem;
 }
 .header {
   background-color: black;
+}
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,10 +27,15 @@ html {
   margin-left: 1rem;
   margin-top: 1rem;
 }
+.hamburguesa {
+  color: white;
+  font-size: 1.5rem;
+  
+}
 .header-botones {
   color: white;
   width: 20%;
-  display: flex;
+  display: none;
   justify-content: space-around;
   position: relative;
 }
@@ -46,16 +53,63 @@ html {
   display: flex;
 }
 .titulo-principal {
-  padding-top: 5rem;   /*16px = 1.6rem  10px = 1rem*/
+  padding-top: 9rem;   /*16px = 1.6rem  10px = 1rem*/
   color: white;
+  font-size: 4rem;
 }
 .parrafo-principal {
+  padding-top: 2rem;
   color: white;
   font-size: 1.8rem;
+  padding-bottom: 1,5rem;
+  margin-bottom: 1rem;
 }
 
 .imagen-principal {
   display: none;
+}
+
+.button {
+  width: 95%;
+  text-align: center;
+  background-color: rgb(28, 152, 28);
+  color: white;
+  border-radius: 12px;
+  padding: 3%;
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.terminos {
+  color: white;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+.titulo-h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  width: 95%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+.contenedor-premium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.figure-imagen-premium{
+  width: 20%;
+}
+.imagen-premium{
+  width: 100%;
+}
+.texto-premium {
+  text-align: left;
+  width: 14rem;
+  margin-left: 1rem;
+  
 }
 .pie {
   height: 10vh;
